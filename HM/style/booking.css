@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("book1.jpg");
+  margin: 0;
+  padding: 0;
+}
+
+.booking-container {
+  background-image: url("pexels-pixabay-271639.jpg");
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #1aa7df;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #eac304;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffd700;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="date"]:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+textarea {
+  resize: vertical;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 2px solid #f8b400;
+  width: 100%;
+  z-index: 999;
+  padding: 10px 20px;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 85px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 8px 15px;
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  background-color: #f8b400;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.logo img {
+  height: 80px;
+  width: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
